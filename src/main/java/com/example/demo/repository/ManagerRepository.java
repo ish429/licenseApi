@@ -1,0 +1,1 @@
+package com.example.demo.repository;nnimport com.example.demo.entity.Manager;nimport org.springframework.data.jpa.repository.JpaRepository;nnpublic interface ManagerRepository extends JpaRepository<Manager, Long> {n    Manager findByUsername(String username);n}
