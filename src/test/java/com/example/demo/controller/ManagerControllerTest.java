@@ -1,0 +1,1 @@
+package com.example.demo.controller;nnimport org.junit.jupiter.api.Test;nimport org.springframework.boot.test.context.SpringBootTest;nimport org.springframework.test.context.web.WebAppConfiguration;nn@SpringBootTestn@WebAppConfigurationnpublic class ManagerControllerTest {n    n    @Testn    void contextLoads() {n        // 컨텍스트 로드 테스트n    }n}
