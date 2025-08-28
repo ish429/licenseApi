@@ -1,0 +1,1 @@
+package com.example.demo;nnimport org.springframework.boot.SpringApplication;nimport org.springframework.boot.autoconfigure.SpringBootApplication;nn@SpringBootApplicationnpublic class DemoApplication {n    public static void main(String[] args) {n        SpringApplication.run(DemoApplication.class, args);n    }n}

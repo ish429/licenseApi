@@ -1,0 +1,1 @@
+package com.example.demo.repository;nnimport com.example.demo.entity.License;nimport org.springframework.data.jpa.repository.JpaRepository;nnpublic interface LicenseRepository extends JpaRepository<License, Long> {n}

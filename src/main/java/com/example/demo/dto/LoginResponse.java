@@ -1,0 +1,1 @@
+package com.example.demo.dto;nnimport lombok.Data;nn@Datanpublic class LoginResponse {n    private String token;n    private String message;n}

@@ -1,0 +1,1 @@
+package com.example.demo.exception;nnpublic class LicenseNotFoundException extends RuntimeException {n    public LicenseNotFoundException(String message) {n        super(message);n    }n}

@@ -1,0 +1,1 @@
+package com.example.demo.repository;nnimport com.example.demo.entity.Customer;nimport org.springframework.data.jpa.repository.JpaRepository;nnpublic interface CustomerRepository extends JpaRepository<Customer, Long> {n}

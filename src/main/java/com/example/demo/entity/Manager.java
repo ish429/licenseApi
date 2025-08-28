@@ -1,0 +1,1 @@
+package com.example.demo.entity;nnimport jakarta.persistence.*;nimport lombok.Data;nn@Entityn@Datanpublic class Manager {n    @Idn    @GeneratedValue(strategy = GenerationType.IDENTITY)n    private Long id;n    n    private String username;n    private String password;n    private String role;n}
